@@ -1,0 +1,38 @@
+{
+    "name": "tomeet/laravel-enum",
+    "description": "A simple and easy-to-use enumeration extension package to help you manage enumerations in your project more conveniently, supporting Laravel and Lumen",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tomeet",
+            "email": "tomeet@sohu.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*",
+        "jiannei/helpers": "^0.2.1"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tomeet\\Enum\\Laravel\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tomeet\\Enum\\Laravel\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tomeet\\Enum\\Laravel\\Providers\\LaravelServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable" : true
+}
