@@ -79,7 +79,7 @@ class LaravelServiceProvider extends ServiceProvider
         $path = dirname(__DIR__, 2).'/config/enum.php';
 
         if ($this->app->runningInConsole()) {
-            $this->publishes([$path => config_path('enum.php')], 'enum');
+            $this->publishes([$path => config_path('/tomeet/enum.php')], 'enum');
         }
 
         $this->mergeConfigFrom($path, 'enum');
