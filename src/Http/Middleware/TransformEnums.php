@@ -21,7 +21,7 @@ class TransformEnums
     {
         $strict = strtobool($strict);
 
-        $request->transformEnums(config('enum.transformations'), $strict);
+        $request->transformEnums(Config::get('tomeet.enum.transformations'), $strict);
 
         return $next($request);
     }

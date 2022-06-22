@@ -103,7 +103,7 @@ abstract class Enum implements EnumContract, Castable
 
     public static function getLocalizationKey(): string
     {
-        return config('enum.localization.key').'.'.static::class;
+        return Config::get('tomeet.enum.localization.key').'.'.static::class;
     }
 
     protected static function getFriendlyKeyName(string $key): string
