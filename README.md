@@ -13,7 +13,7 @@
 
 ## 介绍
 - [转自Jiannei/laravel-enum](https://github.com/Jiannei/laravel-enum)
-`laravel-enum` 主要用来扩展项目中的常量使用，通过合理的定义常量可以使代码更加规范，更易阅读和维护。
+- laravel-enum` 主要用来扩展项目中的常量使用，通过合理的定义常量可以使代码更加规范，更易阅读和维护。
 
 ## 概览
 
